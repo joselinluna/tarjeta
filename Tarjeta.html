@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjetas</title>
+  <link rel="stylesheet" href="css/Estilo.css">
+  <script src="js/Tarjeta.js"></script>
+
+</head>
+<body>
+
+  <section class="todo">
+    <header><h3>Crea Tu Tarjeta de Felicitación</h3></header>
+    <div class="tema">
+      <h3 class="temas">Elige un tema</h3>
+      <label >
+        <nav>
+        <input type="radio" name="a" value="a">San Valentin
+        </nav>
+      <nav>
+        <input type="radio" name="a" value="b">Cumpleaños
+      </nav>
+      <nav>
+        <input type="radio" name="a" value="c">Motivación
+      </nav>
+      </label>
+
+    </div>
+    
+
+    <div class="imagenes">
+      <h3 class="temas">Elige una Imagen</h3>
+      <label >
+        <nav>
+          <img src="imagenes/San Valentin.jpg" alt="">
+          <input type="radio" name="b" value="a">San Valentin
+        </nav>
+      <nav>
+        <img src="imagenes/Feliz Cumpleaños.jpg" alt="">
+        <input type="radio" name="b" value="b">Cumpleaños
+      </nav>
+      <nav>
+        <img src="imagenes/Motivacion.jpg" alt="">
+        <input type="radio" name="b" value="c">Motivación
+      </nav>
+      
+    </label>
+    </div>
+
+    <div class="datos">
+      <h3 class="tem2">Mensaje</h3>
+      <label>
+      <input type="text" name="" id="titulom" placeholder="Titulo:">
+      <input type="text" name="" id="subtitulom" placeholder="Subtitulo:">
+      <input type="text" name="" id="autorm" placeholder="Autor:">
+      <textarea name="" id="mensajem" cols="30" rows="10" placeholder="Mensaje:"></textarea>
+      </label>
+    </div>
+    <div class="colores">
+      <h3>Color de Fondo</h3>
+      <input type="radio" style="display: none ;" name="color" value="a" id="Morado">
+      <input type="radio" style="display: none ;" name="color" value="b" id="Azul">
+      <input type="radio" style="display: none ;" name="color" value="d" id="Rosa">
+      <label class="Morado" for="Morado" ></label>
+      <label class="Azul" for="Azul" ></label>
+      <label class="Rosa" for="Rosa" ></label>
+    </div>
+    <input type="button" value="Generar" onclick="generar()">
+  </section>
+</br>
+</br>
+</br>
+
+  <section style="display: none;" id="tarjeta">
+
+    
+    <h4 id="titulo"></h4>
+    <h2 id="subtitulo"></h2>
+    <img src="" alt="" id="img">
+    <p id="mensaje"></p>
+    <h1 class="h1" id="autor"></h1>
+    <audio src="audio/musica.mp3" controls></audio>
+
+    
+  </section>
+  
+</body>
+</html>

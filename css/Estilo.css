@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+   color: rgb(0, 0, 139);
+  }
+  body{
+    background-image: url("../imagenes/Fondo.jpg");
+  }
+  .todo{
+    width: 50%;
+    height: auto;
+    margin: 5% 27%;
+    background-color: rgba(255, 248, 220, 0.45);
+  }
+  
+  
+  h3{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 0%;
+    background-image: url("../imagenes/a.jpg");
+    
+  }
+  .temas{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: left;
+    margin-top: 5%;
+    color: rgb(32, 178, 170);
+  }
+  
+  div{
+    
+    padding-bottom: 50px;
+  }
+  .tema label{
+    display: flex;
+  }
+  
+  .tema label nav{
+    margin: 0 11%;
+    margin-top: 2%;
+  }
+  
+  .imagenes label{
+    display: flex;
+  }
+  
+  .imagenes label nav{
+    margin: 5% 10%;
+    margin-top: 10%;
+    width: 100px;
+  }
+  .tem2{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(32, 178, 170);
+    
+  }
+  
+  .datos label{
+    display: grid;
+    width: 80%;
+    margin: 0 10%;
+  
+  }
+  
+  .datos label input, .datos label textarea{
+     margin-bottom: 10px;
+     width: 80%;
+     margin-top: 1em;
+     padding: .7em;
+     border: none;
+     background: none;
+     outline: none;
+     border-bottom: 2px solid #0f0f0f;
+     color: rgb(128, 0, 128);
+  }
+  
+  .colores  label{
+    width:60px;
+    height:60px;
+    border:2px solid #000;
+    display:inline-block;
+    border-radius:50%;
+    margin:7px 11%;
+    cursor:pointer;
+    position:relative;
+    margin-top: 4%;
+  
+  }
+  .Morado{
+   background-color: rgb(147, 112, 219); 
+  }
+  
+  .Azul{
+    background-color: rgb(135, 206, 250);
+  }
+  
+  
+  .Rosa{
+    background-color: rgb(221, 160, 221);
+  }
+  
+  input[type="button"]{
+    width:30%;
+    padding:5px;
+    margin-bottom:10px;
+    display:block;
+    background-color:rgba(255, 218, 185, 0.9);
+    color:rgb(128, 0, 128);
+    cursor:pointer;
+    border:none;
+    font-size:20px;
+    border-radius: 10px;
+    font-weight:normal;
+    margin:0 auto;
+    position:relative;
+    margin-bottom: 10px; 
+   
+  }
+  
+  input[type="button"]:hover{
+    border-bottom: #fff0f5 1px solid;
+    -webkit-transform: scale(1.12,1.12);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 100ms;
+    -moz-transform: scale(1.12,1.12);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 100ms;
+    background-color: rgb(255, 215, 0);
+    color: white;
+    transition: .5s;
+  }
+  
+  input[type="button"]:active{
+    top:1px;
+    background-color: blanchedalmond;
+    color: #800080;
+  }
+  
+  input[type="radio"]{
+  cursor: pointer;
+  
+  border: none;
+  }
+  
+  
+  
+  #tarjeta{
+    width: 70%;
+    height: auto;
+    margin: 1% 15%;
+    border: solid black 1px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  h4{
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(7, 65, 75); 
+  }
+  h2{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(190, 10, 130); 
+  }
+  p{
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(128, 0, 128); 
+  }
+  h1{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: right;
+    margin-top: -1%;
+    color: rgb(128, 0, 128);
+    margin-right: 10%;
+    
+  }
+  .h1{
+    font-size: 10px;
+    font-family: cursive;
+    text-align: left;
+    margin-top: 2%;
+    color: rgb(128, 0, 128);
+    margin-left: 10%;
+  }
+  img{
+    display: block;
+    width: 100%;
+  }
+  
+  #tarjeta #img{
+    width: 50%;
+    margin:  0 25%;
+  }
+
+  
+  
+  #tarjeta {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #tarjeta #titulo{
+    font-size: 40px;
+  }
+  
